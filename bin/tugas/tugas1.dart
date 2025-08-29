@@ -14,7 +14,7 @@ void main() {
   stdout.write("Apakah karyawan tetap? (true/false): ");
   bool statustetap = bool.parse(stdin.readLineSync()!);
 
-  double gajikotor = jamkerja * upahperjam;
+  double gajikotor = jamkerja * upahperjam; 
 
   double pajak;
   if (statustetap) {
