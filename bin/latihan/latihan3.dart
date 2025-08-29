@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write(" masukkan panjang: ");
+  stdout.write("masukkan panjang: ");
   double panjang = double.parse(stdin.readLineSync()!);
 
   stdout.write("masukkan lebar: ");
